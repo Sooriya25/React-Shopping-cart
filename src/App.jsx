@@ -1,5 +1,5 @@
 import './App.css'
-import Cart from './components/cart'
+import Cart from './components/Cart'
 import ProductList from './components/ProductList'
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import SingleProduct from './components/SingleProduct'
