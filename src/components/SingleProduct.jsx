@@ -9,7 +9,6 @@ function SingleProduct() {
     const { id } = useParams()
     const dispatch = useDispatch();
 
-    console.log(id)
     const product = useSelector((state) => 
         selectProductById(state, Number(id)))
     if(!product) {
