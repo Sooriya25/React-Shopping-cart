@@ -1,12 +1,37 @@
-# React + Vite
+# 🛒 React Shopping Cart App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully functional and responsive **Shopping Cart** application built with **React.js**. The app uses **Redux Toolkit** for managing global state, fetches product data from the **Fake Store API**, supports **dynamic cart operations**, and includes a **loader** to enhance user experience during data fetches.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Tech Stack
 
-## Expanding the ESLint configuration
+- **React.js** – Front-end library
+- **Redux Toolkit** – Simplified global state management
+- **React Redux** – React bindings for Redux
+- **Axios** – For API requests
+- **Fake Store API** – Dummy product data
+- **JavaScript (ES6+)**
+- **CSS** – Custom/basic styling
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- 📦 **Fetch Products from Fake Store API**
+  - Products displayed with image, price, and title
+  - API call handled via Axios
+
+- 🛒 **Dynamic Cart Management**
+  - Add to Cart / Remove from Cart functionality
+  - Quantity adjustment and total price calculation
+
+- 🔄 **Global State with Redux Toolkit**
+  - `createSlice()` used to manage product and cart states
+  - Clean separation of concerns with reducers and actions
+
+- ⏳ **Loader**
+  - Loading spinner shown while data is being fetched
+
+- 📱 **Responsive UI**
+  - Works well on both desktop and mobile using custom CSS
